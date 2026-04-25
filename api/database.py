@@ -13,7 +13,7 @@ load_dotenv()
 # URL de conexão com PostgreSQL
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "postgresql://postgres:postgres@localhost:5432/vendas_oltp"
+    "link_do_banco"
 )
 
 # Criar engine SQLAlchemy
