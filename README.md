@@ -292,7 +292,7 @@ pip install -r requirements.txt
 
 Criar arquivo `.env`:
 ```
-DATABASE_URL=postgresql://usuario:senha@localhost:5432/vendas_oltp
+DATABASE_URL=postgresql://usuario:senha@localhost:5432
 ```
 
 ### 5. Iniciar a API
