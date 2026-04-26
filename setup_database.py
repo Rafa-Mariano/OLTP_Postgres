@@ -7,12 +7,6 @@ import os
 import sys
 from pathlib import Path
 
-# Configurações de conexão
-DB_HOST = "Host"
-DB_PORT = "Port"
-DB_NAME = "Banco"
-DB_USER = "User"
-DB_PASSWORD = "Senha"
 
 # Caminho dos scripts
 SCRIPTS_DIR = Path(__file__).parent / "database"
