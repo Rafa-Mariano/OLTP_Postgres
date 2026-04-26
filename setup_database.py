@@ -8,11 +8,11 @@ import sys
 from pathlib import Path
 
 # Configurações de conexão
-DB_HOST = "localhost"
-DB_PORT = "5432"
-DB_NAME = "vendas_oltp"
-DB_USER = "postgres"
-DB_PASSWORD = input("Digite a senha do PostgreSQL: ")
+DB_HOST = "Host"
+DB_PORT = "Port"
+DB_NAME = "Banco"
+DB_USER = "User"
+DB_PASSWORD = "Senha"
 
 # Caminho dos scripts
 SCRIPTS_DIR = Path(__file__).parent / "database"
